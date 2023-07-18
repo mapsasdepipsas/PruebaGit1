@@ -1,1 +1,2 @@
 # PruebaGit1
+Lo que ha ocurrido en el reto 5 es que hemos añadido dos ramas a la rama main, y ahora en Github tenemos las 3 ramas y cada una con las diferentes modificaciones que hemos hecho. (La rama main se ha quedado igual que estaba pq solo hemos modificado la rama1 y la rama2).
