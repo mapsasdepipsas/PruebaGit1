@@ -1,18 +1,18 @@
 //reto 2 
 
 //funcion clasica
-function calculadora(operacion, op1, op2=0) {
+function calculadora(operacion, op1, op2=0, op3 = 0) {
     if (operacion == 'sum'){
-        return op1 + op2
+        return op1 + op2 + op3
     }
     if (operacion == 'subs') {
-        return op1 - op2
+        return op1 - op2 -op3
     }
     if ( operacion == 'mult'){
-        return op1 * op2
+        return op1 * op2 * op3
     }
     if (operacion == 'div') {
-        return op1 / op2
+        return op1 / op2 / op3
     }
 }
 
@@ -22,18 +22,18 @@ console.log(calculadora('mult', 3, 40));
 console.log(calculadora('div', 5));
 
 //funcion arrow
-let calculadoraArrow = (operacion, op1, op2 = 0) => 
+let calculadoraArrow = (operacion, op1, op2 = 0, op3 = 0) => 
 {if (operacion == 'sum'){
-    return op1 + op2
+    return op1 + op2 + op3
 } 
 if (operacion == 'subs') {
-    return op1 - op2
+    return op1 - op2 - op3
 }
 if ( operacion == 'mult'){
-    return op1 * op2
+    return op1 * op2 * op3
 }
 if (operacion == 'div') {
-    return op1 / op2
+    return op1 / op2 / op3
 }
 }
 
