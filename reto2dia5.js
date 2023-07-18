@@ -1,4 +1,4 @@
-//reto 2
+//reto 2 
 
 //funcion clasica
 function calculadora(operacion, op1, op2=0) {
